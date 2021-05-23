@@ -14,6 +14,11 @@ set autoindent
 set laststatus=2
 set cmdheight=2
 
+" Automatically closing braces
+inoremap {<CR> {<CR>}<Esc>ko<tab>
+inoremap [<CR> [<CR>]<Esc>ko<tab>
+inoremap (<CR> (<CR>)<Esc>ko<tab>
+
 " Syntax highlights
 syntax on
 if has('filetype')
