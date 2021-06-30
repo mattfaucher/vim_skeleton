@@ -1,4 +1,4 @@
-# vimrc_skeleton
+# vim_skeleton
 A clean skeleton .vimrc for vim configuration.
 
 ## For beginners:
